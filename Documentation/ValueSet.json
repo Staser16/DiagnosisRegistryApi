@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "id": "diagnosis-codes",
+  "version": "1.0.0",
+  "name": "DiagnosisCodes",
+  "title": "Diagnosis Codes",
+  "status": "active",
+  "description": "Set of supported diagnosis codes",
+  "url": "https://diagnosis-repository.example/valuesets/diagnosis-codes",
+  "compose": {
+    "include": [
+      {
+        "system": "DIAGNOSIS",
+        "concept": [
+          {
+            "type": "DIAGNOSIS",
+            "code": "D001",
+            "display": "Example diagnosis one"
+          },
+          {
+            "type": "DIAGNOSIS",
+            "code": "D002",
+            "display": "Example diagnosis two"
+          },
+          {
+            "type": "DIAGNOSIS",
+            "code": "D003",
+            "display": "Example diagnosis three"
+          },
+          {
+            "type": "DIAGNOSIS",
+            "code": "D004",
+            "display": "Example diagnosis four"
+          },
+          {
+            "type": "DIAGNOSIS",
+            "code": "D005",
+            "display": "Example diagnosis five"
+          }
+        ]
+      }
+    ]
+  }
+}
