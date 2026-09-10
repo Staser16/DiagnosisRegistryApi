@@ -181,3 +181,16 @@ Aplikacja posiada mechanizm raportowania rozpoznań do zewnętrznego systemu pop
 W przypadku wystąpienia tymczasowego błędu aplikacja ponawia próbę wysłania raportu.
 
 Stan raportowania rozpoznania jest przechowywany w bazie danych i dostępny poprzez API.
+
+## 10 Dane testowe:
+
+Baza danych zawiera przykładowego pacjenta wraz z jego danymi, wykorzystywanego do testowania aplikacji.
+
+```
+Id:    b82e4c17-9a36-4f51-a2d8-731c5e90b441
+Pesel: 12345678901
+```
+
+Przykładowe użycie:
+
+GET /api/QueryRecord/Patient?PatientId=b82e4c17-9a36-4f51-a2d8-731c5e90b441
