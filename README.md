@@ -92,7 +92,9 @@ dotnet run
 
 - API będzie dostępne pod endpointem:
 
+```http
 http://localhost:5274
+```
 
 - Rejestracja rozpoznania:
 
@@ -126,7 +128,9 @@ API udostępnia możliwość wykonywania zapytań oraz mutacji za pomocą GraphQ
 
 GraphQL dostępny jest pod endpointem:
 
+```http
 http://localhost:5274/graphql
+```
 
 ## 6 Walidacja danych:
 
